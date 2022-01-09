@@ -1,0 +1,45 @@
+:root {
+  --body-background: #efefef;
+  --primary: hsl(234, 93%, 77%);
+  --primary-darker: hsl(234, 40%, 52%);
+  --tint: #bb8ffa;
+  --secondary: #4d4d4d;
+  --text-color: #666666;
+  --footerBG: hsl(234, 93%, 77%);
+  --servicesBG: #efefef;
+
+  // --footerBG: #636eca;
+
+}
+
+
+.dark-mode {
+    --body-background: #4b4b4b;
+    --primary: hsl(234, 93%, 77%);
+    --primary-darker: hsl(234, 43%, 47%);
+    --tint: #bb8ffa;
+    --secondary: #c2c2c2;
+    --text-color: #666666;
+    --servicesBG: #505050;
+    --footerBG: #363636;
+
+
+}
+
+
+//Navbar
+$navbar__height: 4.5rem;
+
+//Typography--------------------
+
+// Font weights
+$fw-200: 200;
+$fw-400: 400;
+$fw-700: 700;
+//Mobile Fonts
+$hero-font-big: 3rem;
+$hero-font-normal: 2rem;
+$section-big: 2rem;
+$section-normal: 1rem;
+$text-normal: 1rem;
+$text-smaller: 0.9rem;

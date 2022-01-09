@@ -1,0 +1,62 @@
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 10%;
+}
+
+.section__title {
+  color: var(--secondary);
+  font-size: $section-big;
+  letter-spacing: 0.1rem;
+  line-height: 5rem;
+}
+
+.section__paragraph {
+  text-align: justify;
+  letter-spacing: 0.1rem;
+}
+
+.services-title {
+  height: 4.5rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 4rem;
+  color: #fff;
+  background: rgb(142, 153, 251);
+  background: linear-gradient(
+    61deg,
+    rgba(142, 153, 251, 1) 27%,
+    rgba(187, 143, 250, 1) 69%
+  );
+  border-radius: 15px 0 15px 15px;
+  padding: 5px 10px;
+}
+
+%btn {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.btn-primary {
+  @extend %btn;
+  background-color: var(--primary);
+}
+.btn-secondary {
+  @extend %btn;
+  background-color: var(--tint);
+}
+
+
+
+

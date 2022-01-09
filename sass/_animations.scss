@@ -1,0 +1,28 @@
+// Animate Hamburger starts
+.toggle-nav .lines:nth-child(1) {
+  transform: rotate(-45deg) translate(-6px, 4px);
+}
+
+.toggle-nav .lines:nth-child(2) {
+  opacity: 0;
+}
+
+.toggle-nav .lines:nth-child(3) {
+  transform: rotate(45deg) translate(-6px, -4px);
+}
+
+.hide-links {
+  transform: translateX(100%);
+}
+
+@keyframes floatHero {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

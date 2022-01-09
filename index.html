@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONT AWESOME  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Jonathan Dev</title>
+
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="icon" href="assets/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="app-container container grid">
+      <header>
+        <div class="navbar container flex">
+          <div class="logo">
+            <a href="#home"><img src="assets/JC.svg" alt="nav logo" /></a>
+          </div>
+
+          <div class="theme">
+            <i class="fa-regular fa-lightbulb themeBg"></i>
+            <i class="fa-solid fa-moon themeBg"></i>
+            <button class="themeBtn"></button>
+          </div>
+
+          <ul class="nav-links hide-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="hamburger">
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+          </div>
+        </div>
+      </header>
+      <main class="grid">
+        <section id="home" class="home-section grid">
+          <div class="site-links">
+            <a href="https://github.com/JonathanChiong" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jonathan-chiong-b87930120/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCpJoeeGGeGPfZtKB3rcR5wQ"
+              target="_blank"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+
+          <div class="intro">
+            <h1>I am <span>Jonathan</span></h1>
+            <h3>Web designer & developer.</h3>
+          </div>
+          <div class="hero-image">
+            <img src="assets/computer.svg" alt="" />
+          </div>
+        </section>
+
+        <!-- ABOUT SECTION START -->
+        <section id="about" class="about-section grid">
+          <div
+            class="about-intro"
+            data-aos="fade-right"
+            data-aos-easing="ease-in"
+            data-aos-duration="500"
+          >
+            <h1 class="section__title">About me</h1>
+            <p class="section__paragraph">
+              I am a front-end developer with passion in design and creating
+              simple and remarkable websites.
+            </p>
+            <a href="assets/Jonathan Chiong CV.pdf" target="_blank"
+              ><button class="about-btn btn-primary">
+                <i class="fa-solid fa-download"></i>Resume
+              </button></a
+            >
+          </div>
+          <div
+            class="about-portrait"
+            class="about-intro"
+            data-aos="fade-left"
+            data-aos-easing="ease-in"
+            data-aos-duration="500"
+          >
+            <img src="assets/portrait.svg" alt="" />
+          </div>
+        </section>
+        <!-- ABOUT SECTION ENDS -->
+        <!-- Services SECTION STARTS -->
+        <section id="services" class="services-section grid">
+          <div>
+            <h1 class="section__title">What I do</h1>
+            <p class="section__paragraph">
+              Combining web development with a solid, modern sense of design.
+            </p>
+          </div>
+
+          <article
+            class="services-card grid"
+            class="about-intro"
+            data-aos="fade-up"
+            data-aos-easing="ease-in"
+            data-aos-duration="500"
+          >
+            <div class="service-img">
+              <img src="assets/designer.png" alt="design illustration" />
+            </div>
+
+            <div class="services-description grid">
+              <h2 class="services-title">Sleek design</h2>
+              <p class="section__paragraph">
+                Clean looking web designs that stands out. I follow visual
+                heirarchy, color theory and other design principles to deliver
+                striking products with animations to improves overall user
+                experience for your audience.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="services-card grid"
+            class="services-card grid"
+            class="about-intro"
+            data-aos="fade-up"
+            data-aos-easing="ease-in"
+            data-aos-duration="500"
+          >
+            <div class="service-img">
+              <img src="assets/responsive.png" alt="responsive illustration" />
+            </div>
+            <div class="services-description grid">
+              <h2 class="services-title">Responsive</h2>
+              <p class="section__paragraph">
+                Mobile-first design. Get a web-page that looks stunning on all
+                device screens. We can also make custom design per target
+                device.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="services-card grid"
+            class="services-card grid"
+            class="about-intro"
+            data-aos="fade-up"
+            data-aos-easing="ease-in"
+            data-aos-duration="500"
+          >
+            <div class="service-img">
+              <img src="assets/customize.png" alt="customizable illustration" />
+            </div>
+            <div class="services-description grid">
+              <h2 class="services-title">Customize</h2>
+              <p class="section__paragraph">
+                From design to development- Everything can be collaboratively
+                designed by me and you! Get a website that is uniquely for you.
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <!-- Services SECTION ENDS -->
+        <!-- <section id="portfolio">PORTFOLIO</section> -->
+      </main>
+      <footer class="footer-section grid" id="contact">
+        <div class="contact-form">
+          <form
+            action="https://formsubmit.co/ef34ecf7520025c14b2fbe84a208d99d"
+            method="POST"
+            class="grid"
+          >
+            <label for="name">Name:</label>
+            <input type="text" name="name" required id="name" />
+            <label for="email">Email:</label>
+            <input type="email" name="email" required id="email" />
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="5"
+              id="message"
+              placeholder="Tell me something..."
+            ></textarea>
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://jonathandev.tech/thankyou.html"
+            />
+
+            <button type="submit" class="btn-primary">Send message</button>
+          </form>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/JonathanChiong" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jonathan-chiong-b87930120/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCpJoeeGGeGPfZtKB3rcR5wQ"
+            target="_blank"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+        <p class="copyright">Jonathan Chiong © 2021</p>
+      </footer>
+
+      <button class="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
