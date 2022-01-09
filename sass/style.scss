@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
 
-@import "./sass/variables";
-@import "./sass/helper";
-@import "./sass/animations";
+@import "./animations";
+@import "./variables";
+@import "./helper";
 
 * {
   padding: 0;
