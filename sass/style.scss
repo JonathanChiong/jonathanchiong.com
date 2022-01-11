@@ -46,7 +46,7 @@ html {
 }
 
 .app-container {
-  row-gap: 40px;
+  row-gap: 100px;
 }
 
 // NAVBAR STARTS
@@ -142,7 +142,7 @@ header {
 
 //MAIN STARTS
 main {
-  row-gap: 50px;
+  row-gap: 80px;
 }
 //MAIN ENDS
 
@@ -241,7 +241,6 @@ main {
     gap: 0.5rem;
     color: #fefefe;
     font-size: 1.1rem;
-    width: 8rem;
     padding: 10px 20px;
     box-shadow: 5px 11px 14px -6px rgba(0, 0, 0, 0.37);
     -webkit-box-shadow: 5px 11px 14px -6px rgba(0, 0, 0, 0.37);
@@ -467,9 +466,7 @@ main {
 
   .about-section {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     & .about-portrait {
-      grid-row: 1/3;
       grid-column: 2/-1;
     }
   }
